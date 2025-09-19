@@ -1,0 +1,3 @@
+from domain.task_producer.usecase.task_producer_usecase import TaskProducerUseCase
+
+TaskProducerUseCasePort = TaskProducerUseCase

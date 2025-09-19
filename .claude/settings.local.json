@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/joonheelee/nota_dev/model_optimization_explorer/server/laboratory/analyzer/**)",
+      "Bash(mkdir:*)",
+      "Bash(pip install:*)",
+      "Bash(/Users/joonheelee/nota_dev/fastapi_queue_server_sample/simple_q_server_example/.venv/bin/python main.py)",
+      "Bash(curl:*)",
+      "Bash(lsof:*)",
+      "Bash(redis-cli:*)",
+      "Bash(python3:*)",
+      "Bash(/Users/joonheelee/nota_dev/fastapi_queue_server_sample/simple_q_server_example/.venv/bin/python consumer.py)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
